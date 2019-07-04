@@ -5,16 +5,20 @@ env = gym.make('Breakout-ram-v4')
 print(env.unwrapped.get_action_meanings())
 for game_num in range(100):
     env.reset()
+    score = 0
     state, _, terminal, info = env.step(1)
     lives_left = info['ale.lives']
     while not terminal:
-        action = 0
-        state, _, terminal, info = env.step(action)
+        action = 3
+        state, reward, terminal, info = env.step(action)
+        score += reward
         env.render()
-        sleep(0.0001)
+        sleep(0.01)
+        print(score)
         if (info['ale.lives'] < lives_left):  # if life is lost
             lives_left = info['ale.lives']
-            state, _, terminal, i = env.step(1)  # start again
+            state, reward, terminal, i = env.step(1)  # start again
+            score += reward
 
 #
 # for i_episode in range(20):

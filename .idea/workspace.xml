@@ -1,15 +1,580 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6600636e-6d07-4156-92b3-8ac9c34c6c63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Atari-Breakout-DRL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Atari-Breakout-DRL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_0.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_1.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_10.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_100.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_101.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_102.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_103.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_104.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_105.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_106.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_107.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_108.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_109.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_11.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_110.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_111.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_112.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_113.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_114.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_115.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_116.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_117.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_118.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_119.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_12.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_120.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_121.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_122.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_123.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_124.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_125.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_126.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_127.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_128.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_129.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_13.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_130.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_131.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_132.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_133.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_134.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_135.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_136.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_137.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_138.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_139.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_14.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_140.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_141.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_142.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_143.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_144.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_145.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_146.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_147.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_148.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_149.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_15.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_150.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_151.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_152.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_153.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_154.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_155.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_156.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_157.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_158.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_159.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_16.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_160.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_161.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_162.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_163.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_164.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_165.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_166.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_167.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_168.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_169.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_17.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_170.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_171.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_172.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_173.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_174.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_175.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_176.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_177.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_178.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_179.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_18.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_180.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_181.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_182.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_183.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_184.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_185.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_186.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_187.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_188.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_189.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_19.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_190.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_191.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_192.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_193.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_194.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_195.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_196.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_197.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_198.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_199.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_2.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_20.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_200.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_201.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_202.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_203.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_204.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_205.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_206.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_207.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_208.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_209.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_21.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_210.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_211.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_212.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_213.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_214.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_215.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_216.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_217.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_218.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_219.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_22.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_220.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_221.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_222.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_223.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_224.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_225.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_226.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_227.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_228.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_229.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_23.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_230.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_231.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_232.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_233.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_234.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_235.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_236.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_237.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_238.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_239.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_24.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_240.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_241.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_242.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_243.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_244.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_245.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_246.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_247.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_248.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_249.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_25.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_250.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_251.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_252.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_253.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_254.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_255.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_256.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_257.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_258.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_259.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_26.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_260.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_261.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_262.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_263.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_264.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_265.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_266.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_267.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_268.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_269.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_27.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_270.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_271.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_272.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_273.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_274.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_275.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_276.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_277.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_278.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_279.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_28.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_280.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_281.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_282.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_283.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_284.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_285.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_286.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_287.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_288.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_289.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_29.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_290.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_291.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_292.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_293.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_294.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_295.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_296.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_297.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_298.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_299.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_3.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_30.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_31.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_32.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_33.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_34.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_35.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_36.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_37.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_38.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_39.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_4.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_40.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_41.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_42.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_43.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_44.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_45.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_46.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_47.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_48.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_49.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_5.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_50.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_51.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_52.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_53.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_54.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_55.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_56.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_57.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_58.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_59.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_6.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_60.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_61.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_62.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_63.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_64.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_65.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_66.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_67.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_68.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_69.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_7.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_70.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_71.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_72.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_73.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_74.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_75.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_76.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_77.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_78.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_79.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_8.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_80.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_81.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_82.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_83.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_84.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_85.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_86.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_87.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_88.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_89.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_9.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_90.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_91.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_92.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_93.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_94.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_95.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_96.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_97.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_98.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_game_99.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_agent.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="84" column="61" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/train_agent.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="470" />
+    <option name="y" value="-10" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/train_agent.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test_agent">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="Atari-Breakout-DRL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\envs\tensorflowgpuVE\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_agent" type="PythonConfigurationType" factoryName="Python">
+      <module name="Atari-Breakout-DRL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\envs\tensorflowgpuVE\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_agent.py" />
+      <option name="PARAMETERS" value="models/final_model.mdl" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_agent" type="PythonConfigurationType" factoryName="Python">
+      <module name="Atari-Breakout-DRL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\envs\tensorflowgpuVE\pythonw.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_agent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.test_agent" />
+      <item itemvalue="Python.train_agent" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6600636e-6d07-4156-92b3-8ac9c34c6c63" name="Default Changelist" comment="" />
+      <created>1562249676313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562249676313</updated>
+      <workItem from="1562249684235" duration="697000" />
+      <workItem from="1562250893231" duration="5314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6011000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test_agent.coverage" NAME="test_agent Coverage Results" MODIFIED="1562256394958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$train_agent.coverage" NAME="train_agent Coverage Results" MODIFIED="1562255278751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test.coverage" NAME="test Coverage Results" MODIFIED="1562254176903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="84" column="61" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
