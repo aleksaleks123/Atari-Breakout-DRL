@@ -10,7 +10,7 @@ import sys
 
 class Agent():
 
-    def __init__(self,path = None , iter_num = 0, ram = True ):
+    def __init__(self, path=None, iter_num=0, ram=True):
         self.num_of_games = 40000
         self.iter_num = iter_num
 
@@ -24,14 +24,12 @@ class Agent():
         self.gamma = 0.99
 
         self.RAM_SHAPE = (128,)
-        self.PP_FRAME_SHAPE = (105, 80)
+        self.PP_FRAME_SHAPE = (105, 80, 1)
         self.action_space = np.array([0, 2, 3])
         self.activate_all_actions = np.ones((1, len(self.action_space)))
         self.activate_all_actions_batch = np.ones((self.batch_size, len(self.action_space)))
         self.zero_q_values = np.zeros(len(self.action_space))
         self.action_to_index = {0: 0, 2: 1, 3: 2}
-
-
 
         self.xp_memory = deque()
 
@@ -39,7 +37,7 @@ class Agent():
             self.model = keras.models.load_model(path)
             self.target_model = keras.models.load_model(path)
             if ram:
-                self.env = gym.make('Breakout-ramDeterministic-v4') # always skip 4 frames and no randomness
+                self.env = gym.make('Breakout-ramDeterministic-v4')  # always skip 4 frames and no randomness
             else:
                 self.env = gym.make('BreakoutDeterministic-v4')
         else:
@@ -47,7 +45,7 @@ class Agent():
                 self.model = self.make_model()
                 self.target_model = self.make_model()
                 self.target_model.set_weights(self.model.get_weights())  # so they have same weights
-                self.env = gym.make('Breakout-ramDeterministic-v4') # always skip 4 frames and no randomness
+                self.env = gym.make('Breakout-ramDeterministic-v4')  # always skip 4 frames and no randomness
             else:
                 self.model = self.make_conv_model()
                 self.target_model = self.make_conv_model()
@@ -75,7 +73,7 @@ class Agent():
         normalized = keras.layers.Lambda(lambda x: x / 255.0)(frames_input)
 
         conv_1 = keras.layers.convolutional.Convolution2D(
-            16, 8,  subsample=(4, 4), activation='relu'
+            16, 8, subsample=(4, 4), activation='relu'
         )(normalized)
 
         conv_2 = keras.layers.convolutional.Convolution2D(
@@ -173,7 +171,7 @@ class Agent():
         return img[::2, ::2]
 
     def preprocess(self, img):
-        return self.to_grayscale(self.downsample(img))
+        return np.expand_dims(self.to_grayscale(self.downsample(img)), axis=2)
 
     def train_conv(self):
         scores = []
@@ -216,9 +214,9 @@ class Agent():
 
     def fit_conv(self, batch):
 
-        states = np.zeros((len(batch), self.PP_FRAME_SHAPE[0], self.PP_FRAME_SHAPE[1]), dtype=np.uint8)
+        states = np.zeros((len(batch), self.PP_FRAME_SHAPE[0], self.PP_FRAME_SHAPE[1], self.PP_FRAME_SHAPE[2]), dtype=np.uint8)
         actions_encoded = np.zeros((len(batch), len(self.action_space)), dtype=np.uint8)
-        new_states = np.zeros((len(batch), self.PP_FRAME_SHAPE[0], self.PP_FRAME_SHAPE[1]), dtype=np.uint8)
+        new_states = np.zeros((len(batch), self.PP_FRAME_SHAPE[0], self.PP_FRAME_SHAPE[1], self.PP_FRAME_SHAPE[2]), dtype=np.uint8)
         rewards = np.zeros((len(batch),), dtype=np.float32)
         terminals = np.zeros((len(batch),), dtype=np.bool)
 
