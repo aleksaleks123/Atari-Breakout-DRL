@@ -10,14 +10,14 @@ import keras
 class Agent():
 
     def __init__(self):
-        self.num_of_games = 2000
+        self.num_of_games = 20000
 
         self.init_exploration = 1
         self.final_exploration = 0.1
         self.final_exploration_frame = 1000000
-        self.update_target_model_after_frames = 10000
+        self.update_target_model_after_frames = 1000
         self.fit_model_after_frames = 4
-        self.xp_length = 1000000
+        self.xp_length = 100000
         self.batch_size = 32
         self.gamma = 0.99
 
@@ -66,7 +66,7 @@ class Agent():
                 score += reward
                 if (info['ale.lives'] < lives_left):  # if life is lost
                     lives_left = info['ale.lives']
-                    #reward = -1
+                    # reward = -1
                     self.xp_memory.append((state, action, new_state, reward, terminal))
                     new_state, reward, terminal, _ = self.env.step(1)  # start again
                     score += reward
@@ -82,10 +82,10 @@ class Agent():
                     self.target_model.set_weights(self.model.get_weights())
             scores.append(score)
             if game_num % 100 == 0:
-                print(f"Game number: {game_num}\t\tAvg score:{np.mean(scores)}")
+                print(f"Game number: {game_num}\t\tAvg score:{np.mean(scores)}\t\tFrame:{iter_num}")
                 scores = []
                 self.model.save(f"models/model_game_{game_num}.mdl")
-            if game_num == self.num_of_games-1:
+            if game_num == self.num_of_games - 1:
                 self.model.save(f"models/final_model.mdl")
 
     def fit(self, batch):
@@ -113,8 +113,10 @@ class Agent():
                        batch_size=self.batch_size, verbose=0)
 
     def make_action(self, state, iter_num):
-        epsilon = (iter_num / self.final_exploration_frame) * (
-                self.init_exploration - self.final_exploration) + self.final_exploration
+        epsilon = self.final_exploration
+        if iter_num < self.final_exploration_frame:
+            epsilon = self.init_exploration - (iter_num / self.final_exploration_frame) * (
+                    self.init_exploration - self.final_exploration)
         if random() < epsilon:
             return choice(self.action_space)
         else:
