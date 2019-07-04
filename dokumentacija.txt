@@ -1,0 +1,12 @@
+Znacenje akcija:
+0 - bez akcije
+1 - pocetak igre
+2 - kretanje desno
+3 - kretanje levo
+
+
+
+
+Razlog zasto se rucno pravi batch i onda radi mode.fit nad celim batch-om, umesto da se Kerasu
+da da uzima batch: U slucaju da on Keras uzima batch, mi mu moram unapred pripremiti target_Q_values
+za sve ulaze, sto je bespotrebno trosenje vremena
