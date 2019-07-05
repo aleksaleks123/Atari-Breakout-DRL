@@ -11,7 +11,7 @@ import sys
 class Agent():
 
     def __init__(self, path=None, iter_num=0, ram=True):
-        self.num_of_games = 40000
+        self.num_of_games = 100000
         self.iter_num = iter_num
 
         self.init_exploration = 1
