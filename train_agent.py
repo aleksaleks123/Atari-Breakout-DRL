@@ -13,6 +13,7 @@ class Agent():
     def __init__(self, path=None, iter_num=0, ram=True):
         self.num_of_games = 100000
         self.iter_num = iter_num
+        self.best_score = 0
 
         self.init_exploration = 1
         self.final_exploration = 0.1
@@ -57,7 +58,8 @@ class Agent():
         actions_input = keras.layers.Input(self.action_space.shape, name='actions_input')
         normalized = keras.layers.Lambda(lambda x: x / 255.0)(ram_input)
         hidden1 = keras.layers.Dense(512, activation='relu', name='hidden1')(normalized)
-        hidden3 = keras.layers.Dense(128, activation='relu', name='hidden3')(hidden1)
+        dropout = keras.layers.Dropout(0.2)(hidden1)
+        hidden3 = keras.layers.Dense(128, activation='relu', name='hidden3')(dropout)
         output = keras.layers.Dense(len(self.action_space), name='output')(hidden3)
         filtered_output = keras.layers.multiply([output, actions_input])
 
@@ -118,10 +120,17 @@ class Agent():
                 state = new_state
                 self.iter_num += 1
                 if self.iter_num >= self.batch_size and self.iter_num % self.fit_model_after_frames == 0:
-                    self.fit(sample(self.xp_memory, self.batch_size))
+                    try:
+                        self.fit(sample(self.xp_memory, self.batch_size))
+                    except ValueError:
+                        pass # if iter_num is bigger than batch size and xp_memory is still empty (when continuing training)
                 if self.iter_num % self.update_target_model_after_frames == 0:
                     self.target_model.set_weights(self.model.get_weights())
             scores.append(score)
+            if score>self.best_score:
+                self.best_score = score
+                print(f"New best score: {self.best_score}")
+                self.model.save(f"best_models/best_modeL_score_{self.best_score}")
             if game_num % 100 == 0:
                 print(f"Game number: {game_num}\t\tAvg score:{np.mean(scores)}\t\tFrame:{self.iter_num}")
                 scores = []
