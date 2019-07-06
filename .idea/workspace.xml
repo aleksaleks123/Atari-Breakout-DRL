@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6600636e-6d07-4156-92b3-8ac9c34c6c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/continue_from.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/continue_from.mdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_101.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_110.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_114.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_119.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_285.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_343.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_345.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/best_modeL_score_350.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/conv_prekonoci-Colab.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/current_best.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_models/poslednji_od_prekonoci-Noframeskip.mdl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/train_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_agent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,13 +22,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="340">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -25,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
+            <state relative-caret-position="34">
+              <caret line="116" column="48" selection-end-line="215" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -73,11 +98,6 @@
               <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -105,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_agent">
+  <component name="RunManager" selected="Python.train_agent">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="Atari-Breakout-DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +162,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_agent.py" />
-      <option name="PARAMETERS" value="models/model_game_15300.mdl" />
+      <option name="PARAMETERS" value="best_overall_models/best_modeL_score_350.0" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -157,14 +177,14 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\envs\tensorflowgpuVE\pythonw.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_agent.py" />
-      <option name="PARAMETERS" value="continue_from.mdl" />
+      <option name="PARAMETERS" value="-c" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -191,21 +211,23 @@
       <workItem from="1562249684235" duration="697000" />
       <workItem from="1562250893231" duration="5314000" />
       <workItem from="1562256560094" duration="30555000" />
+      <workItem from="1562422880742" duration="264000" />
+      <workItem from="1562423203018" duration="2589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36566000" />
+    <option name="totallyTimeSpent" value="45600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34019503" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60780066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,8 +241,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,8 +260,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test_agent.coverage" NAME="test_agent Coverage Results" MODIFIED="1562415890334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$train_agent.coverage" NAME="train_agent Coverage Results" MODIFIED="1562387464401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test_agent.coverage" NAME="test_agent Coverage Results" MODIFIED="1562423627809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$train_agent.coverage" NAME="train_agent Coverage Results" MODIFIED="1562424348948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test.coverage" NAME="test Coverage Results" MODIFIED="1562254176903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -253,22 +275,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_agent.py">
+    <entry file="file://$PROJECT_DIR$/test_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
+        <state relative-caret-position="340">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_agent.py">
+    <entry file="file://$PROJECT_DIR$/train_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="116" column="48" selection-end-line="215" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
