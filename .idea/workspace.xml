@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6600636e-6d07-4156-92b3-8ac9c34c6c63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/model_game_0.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_1900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_2900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_3900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_4900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_5900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_6900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_7900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8800.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_8900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_900.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9000.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9100.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9200.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9300.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9400.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9500.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9600.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9700.mdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_game_9800.mdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/continue_from.mdl" beforeDir="false" afterPath="$PROJECT_DIR$/continue_from.mdl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_agent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,10 +14,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_agent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="446">
+              <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -124,6 +38,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fit</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,6 +73,11 @@
               <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
               <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Atari-Breakout-DRL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Atari-Breakout-DRL" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_agent">
+  <component name="RunManager" selected="Python.test_agent">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python">
       <module name="Atari-Breakout-DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +142,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_agent.py" />
-      <option name="PARAMETERS" value="models/model_game_5700.mdl" />
+      <option name="PARAMETERS" value="models/model_game_15300.mdl" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -266,22 +190,22 @@
       <updated>1562249676313</updated>
       <workItem from="1562249684235" duration="697000" />
       <workItem from="1562250893231" duration="5314000" />
-      <workItem from="1562256560094" duration="27150000" />
+      <workItem from="1562256560094" duration="30555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33161000" />
+    <option name="totallyTimeSpent" value="36566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8028169" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34019503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,21 +238,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test_agent.coverage" NAME="test_agent Coverage Results" MODIFIED="1562281460321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$train_agent.coverage" NAME="train_agent Coverage Results" MODIFIED="1562367999099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test_agent.coverage" NAME="test_agent Coverage Results" MODIFIED="1562415890334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$train_agent.coverage" NAME="train_agent Coverage Results" MODIFIED="1562387464401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Atari_Breakout_DRL$test.coverage" NAME="test Coverage Results" MODIFIED="1562254176903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_agent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -341,10 +255,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/train_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="446">
+          <caret line="253" column="70" selection-start-line="253" selection-start-column="70" selection-end-line="253" selection-end-column="70" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

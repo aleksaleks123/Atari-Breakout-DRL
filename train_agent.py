@@ -10,10 +10,10 @@ import sys
 
 class Agent():
 
-    def __init__(self, path=None, iter_num=0, ram=True):
+    def __init__(self, path=None, iter_num=0, ram=True, best_score = 0):
         self.num_of_games = 100000
         self.iter_num = iter_num
-        self.best_score = 0
+        self.best_score = best_score
 
         self.init_exploration = 1
         self.final_exploration = 0.1
@@ -127,10 +127,10 @@ class Agent():
                 if self.iter_num % self.update_target_model_after_frames == 0:
                     self.target_model.set_weights(self.model.get_weights())
             scores.append(score)
-            if score>self.best_score:
+            if score>=self.best_score:
                 self.best_score = score
                 print(f"New best score: {self.best_score}")
-                self.model.save(f"best_models/best_modeL_score_{self.best_score}")
+                self.model.save(f"best_models/best_modeL_score_{int(self.best_score)}")
             if game_num % 100 == 0:
                 print(f"Game number: {game_num}\t\tAvg score:{np.mean(scores)}\t\tFrame:{self.iter_num}")
                 scores = []
@@ -251,5 +251,5 @@ if __name__ == '__main__':
         a = Agent()
         a.train()
     else:
-        a = Agent(path=sys.argv[1], iter_num=1000000)
+        a = Agent(path=sys.argv[1], iter_num=1000000, best_score=350.0)
         a.train()
