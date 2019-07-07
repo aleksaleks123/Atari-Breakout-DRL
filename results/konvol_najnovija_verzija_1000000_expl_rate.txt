@@ -1,0 +1,103 @@
+New best score: 0.0
+Game number: 0		Avg score:0.0		Frame:120
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 4.0
+Game number: 100		Avg score:0.76		Frame:14897
+New best score: 4.0
+New best score: 4.0
+New best score: 4.0
+New best score: 4.0
+New best score: 5.0
+Game number: 200		Avg score:0.93		Frame:30251
+Game number: 300		Avg score:0.72		Frame:44759
+New best score: 8.0
+Game number: 400		Avg score:1.09		Frame:60703
+Game number: 500		Avg score:0.94		Frame:75910
+Game number: 600		Avg score:1.26		Frame:92175
+New best score: 8.0
+Game number: 700		Avg score:1.5		Frame:109450
+Game number: 800		Avg score:1.65		Frame:127304
+Game number: 900		Avg score:1.41		Frame:144241
+Game number: 1000		Avg score:1.77		Frame:162564
+Game number: 1100		Avg score:1.89		Frame:181182
+Game number: 1200		Avg score:2.24		Frame:200620
+New best score: 8.0
+New best score: 8.0
+Game number: 1300		Avg score:2.63		Frame:221025
+Game number: 1400		Avg score:2.78		Frame:242534
+New best score: 8.0
+New best score: 9.0
+Game number: 1500		Avg score:3.17		Frame:265650
+New best score: 10.0
+New best score: 11.0
+Game number: 1600		Avg score:3.89		Frame:290745
+Game number: 1700		Avg score:3.62		Frame:314571
+Game number: 1800		Avg score:3.34		Frame:338133
+New best score: 14.0
+New best score: 14.0
+Game number: 1900		Avg score:3.83		Frame:363025
+New best score: 17.0
+Game number: 2000		Avg score:4.73		Frame:391007
+Game number: 2100		Avg score:4.82		Frame:419568
+Game number: 2200		Avg score:5.3		Frame:448844
+Game number: 2300		Avg score:5.22		Frame:479005
+New best score: 20.0
+Game number: 2400		Avg score:6.22		Frame:512384
+Game number: 2500		Avg score:6.27		Frame:545823
+Game number: 2600		Avg score:7.24		Frame:581081
+New best score: 21.0
+Game number: 2700		Avg score:8.09		Frame:618519
+New best score: 21.0
+Game number: 2800		Avg score:8.49		Frame:657614
+Game number: 2900		Avg score:9.86		Frame:699409
+New best score: 22.0
+New best score: 25.0
+New best score: 29.0
+Game number: 3000		Avg score:12.6		Frame:747172
+Game number: 3100		Avg score:14.07		Frame:797896
+Game number: 3200		Avg score:14.37		Frame:849803
+New best score: 32.0
+Game number: 3300		Avg score:15.18		Frame:901395
+Game number: 3400		Avg score:17.95		Frame:957329
+New best score: 32.0
+Game number: 3500		Avg score:18.36		Frame:1015145
+New best score: 39.0
+New best score: 41.0
+Game number: 3600		Avg score:19.55		Frame:1072623
+Game number: 3700		Avg score:20.19		Frame:1131813
+Game number: 3800		Avg score:19.21		Frame:1190622
+Game number: 3900		Avg score:19.44		Frame:1248767
+Game number: 4000		Avg score:18.94		Frame:1305436
+Game number: 4100		Avg score:19.13		Frame:1364257
+Game number: 4200		Avg score:20.84		Frame:1424441
+Game number: 4300		Avg score:19.99		Frame:1483875
+New best score: 42.0
+Game number: 4400		Avg score:21.05		Frame:1544531
+Game number: 4500		Avg score:19.99		Frame:1603356
+Game number: 4600		Avg score:21.88		Frame:1665228
+Game number: 4700		Avg score:21.65		Frame:1725242
+Game number: 4800		Avg score:22.53		Frame:1788387
+Game number: 4900		Avg score:21.9		Frame:1850247
+Game number: 5000		Avg score:22.56		Frame:1911950
+Game number: 5100		Avg score:21.51		Frame:1973529
+Game number: 5200		Avg score:23.08		Frame:2035913
+Game number: 5300		Avg score:19.93		Frame:2091310
+Game number: 5400		Avg score:21.55		Frame:2152275
+Game number: 5500		Avg score:20.27		Frame:2208707
+Game number: 5600		Avg score:20.23		Frame:2266204
+Game number: 5700		Avg score:20.85		Frame:2325054
+New best score: 43.0
+Game number: 5800		Avg score:20.6		Frame:2382530
+New best score: 47.0
+Game number: 5900		Avg score:23.12		Frame:2447180
+Game number: 6000		Avg score:23.29		Frame:2510306
+Game number: 6100		Avg score:22.44		Frame:2568449
+Game number: 6200		Avg score:21.54		Frame:2628026
+Game number: 6300		Avg score:21.94		Frame:2689627
+Game number: 6400		Avg score:20.91		Frame:2747516
+New best score: 52.0
+Game number: 6500		Avg score:21.59		Frame:2806136
+Game number: 6600		Avg score:22.03		Frame:2866151
+Game number: 6700		Avg score:23.03		Frame:2929987
