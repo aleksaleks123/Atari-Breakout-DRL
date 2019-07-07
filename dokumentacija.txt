@@ -8,5 +8,5 @@ Znacenje akcija:
 
 
 Razlog zasto se rucno pravi batch i onda radi mode.fit nad celim batch-om, umesto da se Kerasu
-da da uzima batch: U slucaju da on Keras uzima batch, mi mu moram unapred pripremiti target_Q_values
+da da uzima batch: U slucaju da Keras uzima batch, mi mu moramo unapred pripremiti target_Q_values
 za sve ulaze, sto je bespotrebno trosenje vremena
