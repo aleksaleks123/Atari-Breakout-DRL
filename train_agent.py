@@ -86,7 +86,7 @@ class Agent():
         )(normalized)
 
         conv_2 = keras.layers.convolutional.Convolution2D(
-            32, 4, 4, input_shape=(20, 20, 32), subsample=(2, 2), activation='relu'
+            32, 4, 4, input_shape=(20, 20, 16), subsample=(2, 2), activation='relu'
         )(conv_1)
         conv_flattened = keras.layers.core.Flatten()(conv_2)
         hidden = keras.layers.Dense(256, activation='relu')(conv_flattened)
