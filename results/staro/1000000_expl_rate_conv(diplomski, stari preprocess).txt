@@ -1,0 +1,216 @@
+New best score: 1.0
+Game number: 0		Avg score:1.0		Frame:168
+New best score: 1.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 2.0
+New best score: 4.0
+New best score: 4.0
+Game number: 100		Avg score:0.75		Frame:14847
+New best score: 4.0
+Game number: 200		Avg score:0.81		Frame:29719
+New best score: 4.0
+New best score: 7.0
+Game number: 300		Avg score:0.92		Frame:45009
+Game number: 400		Avg score:0.97		Frame:60621
+Game number: 500		Avg score:1.04		Frame:76415
+New best score: 7.0
+Game number: 600		Avg score:1.48		Frame:93793
+New best score: 7.0
+Game number: 700		Avg score:1.44		Frame:110946
+Game number: 800		Avg score:1.37		Frame:128058
+New best score: 11.0
+Game number: 900		Avg score:1.74		Frame:145935
+Game number: 1000		Avg score:2.06		Frame:165158
+New best score: 16.0
+Game number: 1100		Avg score:2.37		Frame:185198
+Game number: 1200		Avg score:2.65		Frame:205889
+Game number: 1300		Avg score:3.16		Frame:228744
+Game number: 1400		Avg score:3.03		Frame:251192
+Game number: 1500		Avg score:3.05		Frame:273131
+Game number: 1600		Avg score:3.44		Frame:296568
+Game number: 1700		Avg score:3.65		Frame:320487
+Game number: 1800		Avg score:4.04		Frame:345934
+Game number: 1900		Avg score:3.93		Frame:371746
+Game number: 2000		Avg score:4.49		Frame:399759
+New best score: 19.0
+Game number: 2100		Avg score:4.45		Frame:426684
+Game number: 2200		Avg score:4.67		Frame:454372
+Game number: 2300		Avg score:4.56		Frame:482354
+Game number: 2400		Avg score:5.51		Frame:512641
+New best score: 19.0
+Game number: 2500		Avg score:6.18		Frame:545726
+New best score: 22.0
+Game number: 2600		Avg score:7.03		Frame:579751
+New best score: 23.0
+Game number: 2700		Avg score:7.5		Frame:616225
+Game number: 2800		Avg score:8.13		Frame:654961
+New best score: 23.0
+Game number: 2900		Avg score:9.76		Frame:695699
+Game number: 3000		Avg score:10.65		Frame:740277
+New best score: 30.0
+Game number: 3100		Avg score:12.46		Frame:787447
+Game number: 3200		Avg score:13.24		Frame:835716
+New best score: 30.0
+Game number: 3300		Avg score:14.1		Frame:887119
+Game number: 3400		Avg score:15.8		Frame:940878
+New best score: 30.0
+Game number: 3500		Avg score:16.73		Frame:995679
+New best score: 30.0
+Game number: 3600		Avg score:17.52		Frame:1051204
+New best score: 31.0
+Game number: 3700		Avg score:17.13		Frame:1103777
+Game number: 3800		Avg score:17.39		Frame:1154805
+New best score: 31.0
+New best score: 31.0
+Game number: 3900		Avg score:18.96		Frame:1210654
+Game number: 4000		Avg score:19.36		Frame:1265925
+Game number: 4100		Avg score:18.69		Frame:1321901
+New best score: 38.0
+Game number: 4200		Avg score:17.77		Frame:1375634
+Game number: 4300		Avg score:19.3		Frame:1431527
+Game number: 4400		Avg score:19.13		Frame:1486992
+Game number: 4500		Avg score:18.41		Frame:1539851
+Game number: 4600		Avg score:19.17		Frame:1593733
+Game number: 4700		Avg score:17.66		Frame:1645963
+Game number: 4800		Avg score:19.75		Frame:1700913
+Game number: 4900		Avg score:21.09		Frame:1758665
+Game number: 5000		Avg score:20.27		Frame:1813538
+New best score: 38.0
+Game number: 5100		Avg score:20.14		Frame:1867977
+Game number: 5200		Avg score:20.76		Frame:1925160
+Game number: 5300		Avg score:20.35		Frame:1981859
+Game number: 5400		Avg score:20.42		Frame:2039208
+Game number: 5500		Avg score:21.29		Frame:2096151
+Game number: 5600		Avg score:20.82		Frame:2152011
+New best score: 40.0
+Game number: 5700		Avg score:21.6		Frame:2207637
+Game number: 5800		Avg score:20.87		Frame:2262707
+Game number: 5900		Avg score:21.06		Frame:2317677
+Game number: 6000		Avg score:19.78		Frame:2370192
+Game number: 6100		Avg score:21.6		Frame:2429122
+Game number: 6200		Avg score:21.5		Frame:2486456
+Game number: 6300		Avg score:20.35		Frame:2542471
+Game number: 6400		Avg score:22.16		Frame:2602434
+New best score: 40.0
+Game number: 6500		Avg score:21.26		Frame:2660991
+Game number: 6600		Avg score:20.27		Frame:2716438
+Game number: 6700		Avg score:20.14		Frame:2772015
+New best score: 41.0
+Game number: 6800		Avg score:20.1		Frame:2827694
+Game number: 6900		Avg score:18.59		Frame:2879571
+Game number: 7000		Avg score:19.35		Frame:2933149
+Game number: 7100		Avg score:18.34		Frame:2982831
+Game number: 7200		Avg score:18.18		Frame:3034352
+Game number: 7300		Avg score:18.19		Frame:3084266
+Game number: 7400		Avg score:18.76		Frame:3135400
+Game number: 7500		Avg score:18.42		Frame:3186426
+Game number: 7600		Avg score:18.61		Frame:3236780
+Game number: 7700		Avg score:18.35		Frame:3288331
+Game number: 7800		Avg score:19.07		Frame:3339947
+Game number: 7900		Avg score:18.9		Frame:3393741
+Game number: 8000		Avg score:20.05		Frame:3449110
+Game number: 8100		Avg score:20.12		Frame:3503753
+Game number: 8200		Avg score:19.57		Frame:3558008
+Game number: 8300		Avg score:19.83		Frame:3611397
+Game number: 8400		Avg score:19.77		Frame:3666610
+Game number: 8500		Avg score:19.97		Frame:3721130
+Game number: 8600		Avg score:20.44		Frame:3777208
+Game number: 8700		Avg score:20.36		Frame:3833306
+Game number: 8800		Avg score:19.41		Frame:3886553
+Game number: 8900		Avg score:20.64		Frame:3943987
+Game number: 9000		Avg score:20.27		Frame:4000679
+Game number: 9100		Avg score:19.57		Frame:4053905
+Game number: 9200		Avg score:20.03		Frame:4108722
+Game number: 9300		Avg score:19.53		Frame:4163002
+Game number: 9400		Avg score:19.8		Frame:4217130
+Game number: 9500		Avg score:20.75		Frame:4275297
+Game number: 9600		Avg score:18.92		Frame:4328354
+Game number: 9700		Avg score:19.2		Frame:4381859
+Game number: 9800		Avg score:21.39		Frame:4441089
+Game number: 9900		Avg score:21.25		Frame:4499425
+Game number: 10000		Avg score:21.28		Frame:4557486
+Game number: 10100		Avg score:20.79		Frame:4615268
+Game number: 10200		Avg score:22.09		Frame:4674083
+Game number: 10300		Avg score:22.04		Frame:4732414
+Game number: 10400		Avg score:21.95		Frame:4791369
+Game number: 10500		Avg score:21.9		Frame:4849049
+Game number: 10600		Avg score:21.54		Frame:4905765
+Game number: 10700		Avg score:20.3		Frame:4960205
+Game number: 10800		Avg score:21.27		Frame:5018531
+Game number: 10900		Avg score:20.16		Frame:5074196
+Game number: 11000		Avg score:20.25		Frame:5128613
+Game number: 11100		Avg score:23.14		Frame:5190189
+Game number: 11200		Avg score:21.37		Frame:5247936
+Game number: 11300		Avg score:21.27		Frame:5304010
+Game number: 11400		Avg score:21.2		Frame:5359430
+Game number: 11500		Avg score:21.52		Frame:5418077
+New best score: 45.0
+Game number: 11600		Avg score:21.35		Frame:5475007
+Game number: 11700		Avg score:21.47		Frame:5533413
+Game number: 11800		Avg score:21.18		Frame:5589340
+Game number: 11900		Avg score:22.51		Frame:5648930
+Game number: 12000		Avg score:22.07		Frame:5707901
+Game number: 12100		Avg score:23.16		Frame:5768415
+New best score: 47.0
+Game number: 12200		Avg score:22.58		Frame:5828132
+Game number: 12300		Avg score:22.71		Frame:5885539
+Game number: 12400		Avg score:22.57		Frame:5945264
+Game number: 12500		Avg score:21.96		Frame:6003024
+Game number: 12600		Avg score:22.09		Frame:6062025
+Game number: 12700		Avg score:23.77		Frame:6124443
+Game number: 12800		Avg score:23.17		Frame:6184515
+Game number: 12900		Avg score:22.15		Frame:6241345
+Game number: 13000		Avg score:21.63		Frame:6298428
+Game number: 13100		Avg score:22.18		Frame:6356041
+Game number: 13200		Avg score:21.48		Frame:6412059
+Game number: 13300		Avg score:21.33		Frame:6468348
+Game number: 13400		Avg score:21.59		Frame:6526870
+Game number: 13500		Avg score:21.31		Frame:6585044
+Game number: 13600		Avg score:20.78		Frame:6643049
+Game number: 13700		Avg score:19.64		Frame:6699555
+Game number: 13800		Avg score:19.8		Frame:6753722
+Game number: 13900		Avg score:21.05		Frame:6810848
+Game number: 14000		Avg score:20.63		Frame:6868777
+Game number: 14100		Avg score:20.49		Frame:6922587
+Game number: 14200		Avg score:18.77		Frame:6974321
+Game number: 14300		Avg score:18.52		Frame:7026057
+Game number: 14400		Avg score:20.0		Frame:7080394
+Game number: 14500		Avg score:19.79		Frame:7135510
+Game number: 14600		Avg score:18.53		Frame:7186747
+Game number: 14700		Avg score:18.43		Frame:7238847
+Game number: 14800		Avg score:18.72		Frame:7291482
+Game number: 14900		Avg score:18.97		Frame:7345594
+Game number: 15000		Avg score:19.37		Frame:7401751
+Game number: 15100		Avg score:19.15		Frame:7457134
+Game number: 15200		Avg score:20.02		Frame:7514001
+Game number: 15300		Avg score:18.95		Frame:7567531
+Game number: 15400		Avg score:19.26		Frame:7621772
+Game number: 15500		Avg score:18.44		Frame:7672575
+Game number: 15600		Avg score:18.02		Frame:7721087
+Game number: 15700		Avg score:19.7		Frame:7777675
+Game number: 15800		Avg score:18.61		Frame:7832283
+Game number: 15900		Avg score:19.31		Frame:7886880
+Game number: 16000		Avg score:20.62		Frame:7945869
+Game number: 16100		Avg score:19.73		Frame:8001775
+Game number: 16200		Avg score:19.69		Frame:8056156
+New best score: 50.0
+Game number: 16300		Avg score:20.11		Frame:8112542
+Game number: 16400		Avg score:19.74		Frame:8168239
+Game number: 16500		Avg score:20.13		Frame:8225254
+Game number: 16600		Avg score:20.2		Frame:8282622
+Game number: 16700		Avg score:19.98		Frame:8340158
+Game number: 16800		Avg score:19.76		Frame:8396100
+Game number: 16900		Avg score:20.16		Frame:8453673
+Game number: 17000		Avg score:19.61		Frame:8509786
+Game number: 17100		Avg score:19.95		Frame:8566802
+Game number: 17200		Avg score:19.09		Frame:8622315
+Game number: 17300		Avg score:17.56		Frame:8674198
+Game number: 17400		Avg score:19.21		Frame:8729321
+Game number: 17500		Avg score:18.87		Frame:8784773
+Game number: 17600		Avg score:18.24		Frame:8838694

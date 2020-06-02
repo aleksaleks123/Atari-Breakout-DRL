@@ -192,7 +192,7 @@ class Agent():
     # taken from http://www.pinchofintelligence.com/openai-gym-part-3-playing-space-invaders-deep-reinforcement-learning/
     def preprocess(self, observation):
         observation = cv2.cvtColor(cv2.resize(observation, (84, 110)), cv2.COLOR_BGR2GRAY)
-        observation = observation[26:110, :]
+        observation = observation[17:101, :]
         ret, observation = cv2.threshold(observation, 1, 255, cv2.THRESH_BINARY)
         return np.reshape(observation, (84, 84, 1))
 
