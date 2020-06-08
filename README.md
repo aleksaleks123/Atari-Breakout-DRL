@@ -15,7 +15,7 @@ Used enviroment: OpenAI Gym
 -m MODEL => to continue training on existing model (MODEL is the path to it)
 
 ### Test
-```python test_agent.py [-h] [-c] [-g GAMES] [-s SLEEP] model```
+```python test_agent.py [-h] [-r] [-c] [-g GAMES] [-s SLEEP] [-e EPSILON] model```
 
 -h => show help
 
